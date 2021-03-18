@@ -1,13 +1,16 @@
+/* Styleing entire sheet to remove margins and paddings*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Setting base background*/
 body {
     background-color: #d9dcd6;
 }
 
+/* Format Header Start*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,7 +52,9 @@ body {
 .header p {
     font-size: 16px;
 }
+/*Format Header End*/
 
+/*Format Hero Start*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +64,9 @@ body {
     background-position: center;
 }
 
+/*Format Hero End*/
+
+/*Format Main Body Start*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -76,6 +84,27 @@ body {
     
 }
 
+.what-we-do {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.image-height {
+    max-height: 200px;
+}
+
+.heading-margin {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Format Main Body End*/
+
+/*Format Right Side Bar Start*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,25 +131,9 @@ body {
     margin: 10px auto;
     max-width: 150px;
 }
+/*Format Right Side Bar End*/
 
-.what-we-do {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.image-height {
-    max-height: 200px;
-}
-
-.heading-margin {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*Format Footer Start*/
 .footer {
     padding: 30px;
     clear: both;
@@ -131,3 +144,4 @@ body {
 .footer h2 {
     font-size: 20px;
 }
+/*Format Footer End*/
