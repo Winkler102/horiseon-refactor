@@ -1,5 +1,5 @@
 ## Horiseon Marketing Code Refactor
-<a href="https://winkler102.github.io/horiseon-refactor/">Website Link</a>
+<a href="https://winkler102.github.io/horiseon-refactor/" target="_blank">Website Link</a>
 
 ## Description:
 
