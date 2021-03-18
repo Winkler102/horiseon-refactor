@@ -6,4 +6,4 @@ Altered the code for Horiseon landing page to consolidate style sheet and repair
 
 ## Image of landing page
 
-![ReadMe Image][.\assets\images\Horiseon-Readme.png]
+![][Horiseon-Readme.png]
